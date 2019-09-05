@@ -1,0 +1,33 @@
+Interview vragen 
+MONDAY 3/09/2019
+
+1.	Waarom wilt u deze app laten ontwikkelen?
+A: Is onderzoeker gespecialiseerd in Afrikaanse talen, wilt de Amazigh taal bekender maken en mensen wat bijleren
+2.	Wat is de doelgroep van de applicatie?
+A: Kinderen tot 13 jaar
+3.	Moet er ook nog worden geleerd over de cultuur?
+A: Exclusief woordenapplicatie, geen cultuur
+4.	Wat is de oriëntatie van de app?
+A: Exclusief verticaal op elk platform
+5.	Op welke besturingssystemen en versies moet de applicatie kunnen werken?
+A: Alleen Android, qua versie zo universeel mogelijk
+6.	Moeten de woorden ook bekeken kunnen worden in gewone lijsten?
+A: Nee, via swipe systeem
+7.	Heeft u oog op bepaalde kleuren voor de app?
+A: Kleuren baseren op de Amazigh vlag
+8.	Wilt u dat wij een logo ontwikkelen voor deze app?
+A: nee, wordt ons geleverd
+9.	Moeten de bestaande categorieën nog in sub categorieën?
+A: Nee, alleen de standaard categorieën
+10.	Moet er een optie komen voor grammatica?
+A: Nee, beperkt tot woorden oefenen
+11.	Wilt u geld verdienen met de app?
+A: Nee
+12.	Wat is het budget voor de applicatie?
+ A: €50.000
+13.	Komt er ook een inlog systeem op de app?
+A: Nee, 1 standaard gebruiker nodig
+14.	Wat zijn de deadlines van de applicatie?
+A: 28 oktober voor design, 13 januari voor realisatie
+
+
