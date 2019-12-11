@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ProjectAndroid_SplashScreen</string>
+    <string name="title">Welkom bij Learn Amazigh</string>
+    <string name="item4">Overige informatie</string>
+    <string name="item3">Resultaten</string>
+    <string name="item1">Spelen</string>
+    <string name="item2">Oefenen</string>
+    <string name="menulink">Terug naar menu</string>
+    <string name="logoDesc">LearnAmazighLogo</string>
+    <string name="splashlogodesc">splashLogo</string>
+    <string name="dummytitle">Deze pagina is nog in ontwikkeling</string>
+    <string name="categorytext">Kies een categorie</string>
+</resources>
