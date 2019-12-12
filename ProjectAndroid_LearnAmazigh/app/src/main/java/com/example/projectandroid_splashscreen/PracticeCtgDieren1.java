@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
 
-public class PracticeCtgAnimals extends AppCompatActivity {
+public class PracticeCtgDieren1 extends AppCompatActivity {
     private ImageButton egelbutton;
     private ImageButton ezelbutton;
     private ImageButton geitbutton;
@@ -15,7 +15,7 @@ public class PracticeCtgAnimals extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_practice_ctg_animals);
+        setContentView(R.layout.activity_practice_ctg_dieren1);
         getSupportActionBar().setTitle("Dieren");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 

@@ -13,9 +13,13 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".PracticeCtgAnimals"
+            android:name=".PlayCtg"
+            android:parentActivityName=".PlayActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PracticeCtgDieren1"
             android:parentActivityName=".PracticeActivity"
-            android:screenOrientation="portrait"></activity>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".PracticeCtg"
             android:parentActivityName=".PracticeActivity"
