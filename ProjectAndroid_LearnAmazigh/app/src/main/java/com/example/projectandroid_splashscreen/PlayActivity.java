@@ -98,6 +98,11 @@ public class PlayActivity extends AppCompatActivity {
             }
         });
     }
+
+
+
+
+    // Open Buttons
     public void openCategoryDieren1() {
         Intent intent = new Intent(this, PlayCtg.class);
         startActivity(intent);
