@@ -16,7 +16,7 @@ public class PracticeCtgDieren1 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_practice_ctg_dieren1);
-        getSupportActionBar().setTitle("Dieren");
+        getSupportActionBar().setTitle("Dieren 1");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         egelbutton = (ImageButton) findViewById(R.id.egelimg);
