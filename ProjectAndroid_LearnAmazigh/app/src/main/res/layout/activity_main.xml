@@ -4,75 +4,101 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorOrange"
-    tools:context=".MainActivity">
+    android:background="@drawable/background"
+    tools:context=".MainActivity"
+
+    >
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="600dp"
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
         <TextView
+            android:textAllCaps="false"
             android:id="@+id/textView"
-            android:layout_width="wrap_content"
+            android:layout_width="194dp"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:layout_gravity="center"
+            android:layout_gravity="center|right"
             android:layout_marginTop="64dp"
+            android:layout_marginRight="25dp"
             android:layout_marginBottom="32dp"
+            android:layout_weight="1"
             android:fontFamily="@font/adampro"
             android:text="@string/title"
-            android:textSize="18sp" />
+            android:textSize="10pt" />
 
         <Button
+            android:textAllCaps="false"
             android:id="@+id/button"
             android:layout_width="180dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:layout_gravity="center"
+            android:layout_height="10dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="50dp"
             android:layout_marginTop="24dp"
             android:layout_marginBottom="24dp"
-            android:background="@drawable/buttonstyle"
-            android:text="@string/item1"
+            android:layout_weight="1"
+            android:backgroundTint="@color/colorButtons"
+            android:text="Spelen"
+            android:textSize="7pt"
+            android:textStyle="bold"
+            android:background="@drawable/btn_rounded"
             android:textColor="@color/colorWhite" />
 
         <Button
+            android:textAllCaps="false"
             android:id="@+id/button2"
             android:layout_width="180dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:layout_gravity="center"
+            android:layout_height="10dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="50dp"
             android:layout_marginTop="24dp"
             android:layout_marginBottom="24dp"
-            android:background="@drawable/buttonstyle"
-            android:text="@string/item2"
-            android:textColor="@color/colorWhite" />
+            android:layout_weight="1"
+            android:backgroundTint="@color/colorButtons"
+            android:text="Oefenen"
+            android:textSize="7pt"
+            android:textStyle="bold"
+            android:textColor="@color/colorWhite"
+            android:background="@drawable/btn_rounded"/>
 
         <Button
+            android:textAllCaps="false"
             android:id="@+id/button3"
             android:layout_width="180dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:layout_gravity="center"
+            android:layout_height="10dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="50dp"
             android:layout_marginTop="24dp"
             android:layout_marginBottom="24dp"
-            android:background="@drawable/buttonstyle"
-            android:text="@string/item3"
-            android:textColor="@color/colorWhite" />
+            android:layout_weight="1"
+            android:backgroundTint="@color/colorButtons"
+            android:text="Resultaten"
+            android:textSize="7pt"
+            android:textStyle="bold"
+            android:textColor="@color/colorWhite"
+            android:background="@drawable/btn_rounded"
+            />
+
 
         <Button
             android:id="@+id/button4"
             android:layout_width="180dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:layout_gravity="center"
+            android:layout_height="10dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="50dp"
             android:layout_marginTop="24dp"
             android:layout_marginBottom="24dp"
-            android:background="@drawable/buttonstyle"
-            android:text="@string/item4"
-            android:textColor="@color/colorWhite" />
+            android:layout_weight="1"
+            android:background="@drawable/btn_rounded"
+            android:backgroundTint="@color/colorButtons"
+            android:text="Overige Informatie"
+            android:textAllCaps="false"
+            android:textColor="@color/colorWhite"
+            android:textSize="6pt"
+            android:textStyle="bold" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

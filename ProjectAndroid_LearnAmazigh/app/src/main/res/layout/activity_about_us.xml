@@ -8,31 +8,78 @@
     tools:context=".AboutUsActivity">
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/aboutTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="181dp"
-        android:layout_marginBottom="531dp"
-        android:text="@string/dummytitle"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="500dp"
         android:fontFamily="@font/adampro"
-        android:textSize="14sp"
+        android:text="Creators"
+        android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
-        android:id="@+id/homebutton"
-        android:layout_width="180dp"
+    <TextView
+        android:id="@+id/aboutText1"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="87dp"
-        android:layout_marginBottom="397dp"
-        android:background="@drawable/buttonstyle"
-        android:text="@string/menulink"
-        android:textColor="@color/colorWhite"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="500dp"
+        android:fontFamily="@font/adampro"
+        android:text="Ons project team bestaat uit:"
+        android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+        app:layout_constraintTop_toTopOf="@id/aboutTitle" />
+
+    <TextView
+        android:id="@+id/aboutText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="500dp"
+        android:fontFamily="@font/adampro"
+        android:text="Eefje Karremans"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/aboutText1" />
+
+    <TextView
+        android:id="@+id/aboutText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="75dp"
+        android:layout_marginBottom="500dp"
+        android:fontFamily="@font/adampro"
+        android:text="Liam Meijles"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/aboutText2" />
+
+    <TextView
+        android:id="@+id/aboutText4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="500dp"
+        android:fontFamily="@font/adampro"
+        android:text="Jorden van Vegten"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/aboutText3" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
