@@ -8,4 +8,5 @@
     <color name="puke">#3C9924</color>
     <color name="colorWhite">#FFFFFF</color>
     <color name="colorButtons">#FF7A7A</color>
+    <color name="NoBackground">#00FFFFFF</color>
 </resources>
