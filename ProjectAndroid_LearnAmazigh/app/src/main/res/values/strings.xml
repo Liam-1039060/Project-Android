@@ -1,6 +1,38 @@
 <resources>
+    <!--    //Name Project-->
     <string name="app_name">ProjectAndroid_SplashScreen</string>
-    <string name="title">Welkom bij Learn Amazigh</string>
+
+    <!--Home-->
+    <string name="welcoming">Welcome to Mobile project</string>
+    <string name="secondWord">The way to learn a language</string>
+    <string name="oefenen">Oefenen</string>
+    <string name="spelen">Spelen</string>
+    <string name="about">About us</string>
+
+    <!--Splash-->
+    <string name="Splash">Learn Amzigh</string>
+
+    <!--    Overal Handig-->
+    <string name="terug">Terug</string>
+    <string name="Volgende">Volgende</string>
+    <string name="terugIcon">⬅</string>
+    <string name="volgendeIcon">➞</string>
+
+
+    <!--    Catogorien-->
+    <string name="weer">Het Weer</string>
+    <string name="dieren">De Dieren</string>
+    <string name="gesprek">Een Gesprek</string>
+    <string name="stad">De Stad</string>
+
+    <!--Oefenen-->
+    <string name="oefenenWord">Welkom bij oefenen. Op dit scherm kan je gewilde Catogorie kiezen Je kan momenteel alleen uitkiezen uit 4 verschillende onderwerpen.
+    Welke lijkt jou het leukst ?</string>
+
+    <string name="soundButton">♫</string>
+    <string name="soundText">Nog een keer horen</string>
+
+    <!--Liams shit-->
     <string name="item4">Overige informatie</string>
     <string name="item3">Resultaten</string>
     <string name="item1">Spelen</string>
@@ -10,4 +42,5 @@
     <string name="splashlogodesc">splashLogo</string>
     <string name="dummytitle">Deze pagina is nog in ontwikkeling</string>
     <string name="categorytext">Kies een categorie</string>
+
 </resources>
