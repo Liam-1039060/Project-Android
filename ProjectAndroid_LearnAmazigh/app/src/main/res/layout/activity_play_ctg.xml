@@ -23,68 +23,79 @@
 
     <ImageView
         android:id="@+id/Answer1"
-        android:layout_width="182dp"
-        android:layout_height="165dp"
+        android:layout_width="181dp"
+        android:layout_height="145dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="8dp"
+        android:contentDescription="@string/spelen"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Word"
-        app:srcCompat="@drawable/amazighlogo2" />
+        app:srcCompat="@drawable/dieren01_egel" />
+
+    <ImageView
+        android:id="@+id/Answer5"
+        android:layout_width="182dp"
+        android:layout_height="152dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="20dp"
+        android:contentDescription="@string/spelen"
+        app:layout_constraintEnd_toStartOf="@+id/Answer6"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Answer2"
+        app:srcCompat="@drawable/dieren01_ezel" />
 
     <ImageView
         android:id="@+id/Answer2"
-        android:layout_width="186dp"
-        android:layout_height="162dp"
+        android:layout_width="179dp"
+        android:layout_height="137dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="23dp"
+        android:contentDescription="@string/spelen"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Answer1"
-        app:srcCompat="@drawable/amazighlogo2"
-        android:contentDescription="@string/spelen"
-        />
+        app:srcCompat="@drawable/dieren01_geit" />
 
 
     <ImageView
         android:id="@+id/Answer3"
-        android:layout_width="188dp"
-        android:layout_height="166dp"
+        android:layout_width="162dp"
+        android:layout_height="143dp"
         android:layout_marginStart="14dp"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="16dp"
         android:contentDescription="@string/spelen"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.851"
         app:layout_constraintStart_toEndOf="@+id/Answer1"
         app:layout_constraintTop_toBottomOf="@+id/Word"
-        app:srcCompat="@drawable/amazighlogo2" />
+        app:srcCompat="@drawable/dieren01_ezel" />
+
+    <ImageView
+        android:id="@+id/Answer6"
+        android:layout_width="177dp"
+        android:layout_height="149dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="16dp"
+        android:contentDescription="@string/spelen"
+        app:layout_constraintStart_toEndOf="@+id/Answer5"
+        app:layout_constraintTop_toBottomOf="@+id/Answer4"
+        app:srcCompat="@drawable/dieren01_geit" />
 
     <ImageView
         android:id="@+id/Answer4"
-        android:layout_width="191dp"
-        android:layout_height="161dp"
+        android:layout_width="169dp"
+        android:layout_height="147dp"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="16dp"
+        android:contentDescription="@string/spelen"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Answer3"
-        app:srcCompat="@drawable/amazighlogo2"
-        android:contentDescription="@string/spelen"
-        />
+        app:srcCompat="@drawable/dieren01_egel" />
 
-    <Button
-        android:id="@+id/terugBtn"
-        android:layout_width="127dp"
-        android:layout_height="60dp"
-        android:layout_marginStart="33dp"
-        android:layout_marginBottom="52dp"
-        android:text="@string/terug"
-        android:background="@color/puke"
-        android:textColor="@color/colorWhite"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        android:contentDescription="@string/spelen"
-        />
 
     <Button
         android:id="@+id/catogorieBtn"
@@ -97,39 +108,27 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
-        android:id="@+id/volgendeBtn"
-        android:layout_width="127dp"
-        android:layout_height="60dp"
-        android:layout_marginEnd="34dp"
-        android:layout_marginBottom="52dp"
-        android:background="@color/puke"
-        android:textColor="@color/colorWhite"
-        android:text="@string/Volgende"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
 
     <TextView
         android:id="@+id/soundTxt"
-        android:layout_width="260dp"
-        android:layout_height="55dp"
-        android:layout_marginEnd="96dp"
-        android:layout_marginBottom="44dp"
+        android:layout_width="214dp"
+        android:layout_height="54dp"
+        android:layout_marginBottom="32dp"
         android:text="@string/soundText"
         android:textSize="23sp"
-        app:layout_constraintBottom_toTopOf="@+id/terugBtn"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/soundBtn" />
 
     <Button
         android:id="@+id/soundBtn"
         android:layout_width="119dp"
         android:layout_height="86dp"
-        android:layout_marginEnd="56dp"
-        android:layout_marginBottom="36dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="16dp"
         android:background="@color/NoBackground"
         android:text="@string/soundButton"
         android:textSize="44sp"
-        app:layout_constraintBottom_toTopOf="@+id/terugBtn"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
 
