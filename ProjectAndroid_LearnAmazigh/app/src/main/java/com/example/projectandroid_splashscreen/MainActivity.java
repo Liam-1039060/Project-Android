@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         getSupportActionBar().hide();
 
-        playbutton = (Button) findViewById(R.id.button);
+        playbutton = (Button) findViewById(R.id.playbutton);
         playbutton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        practicebutton = (Button) findViewById(R.id.button2);
+        practicebutton = (Button) findViewById(R.id.practicebutton);
         practicebutton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        resultsbutton = (Button) findViewById(R.id.button3);
+        resultsbutton = (Button) findViewById(R.id.resultbutton);
         resultsbutton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        aboutbutton = (Button) findViewById(R.id.button4);
+        aboutbutton = (Button) findViewById(R.id.aboutbutton);
         aboutbutton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
