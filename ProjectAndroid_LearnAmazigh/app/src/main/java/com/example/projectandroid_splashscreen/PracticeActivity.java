@@ -22,8 +22,7 @@ public class PracticeActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_practice);
-        getSupportActionBar().setTitle("Kies een categorie");
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().hide();
 
         categorydieren1 = (Button) findViewById(R.id.ctgbuttondieren1);
         categorydieren1.setOnClickListener(new View.OnClickListener() {

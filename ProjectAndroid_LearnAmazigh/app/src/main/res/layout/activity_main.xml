@@ -18,8 +18,8 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <TextView
-            android:textAllCaps="false"
             android:id="@+id/textView"
+            android:textAllCaps="false"
             android:layout_width="194dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center|right"
@@ -32,8 +32,8 @@
             android:textSize="10pt" />
 
         <Button
-            android:textAllCaps="false"
             android:id="@+id/button"
+            android:textAllCaps="false"
             android:layout_width="180dp"
             android:layout_height="10dp"
             android:layout_gravity="left"
