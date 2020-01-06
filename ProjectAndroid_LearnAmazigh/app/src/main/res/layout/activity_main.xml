@@ -28,7 +28,7 @@
             android:layout_marginBottom="32dp"
             android:layout_weight="1"
             android:fontFamily="@font/adampro"
-            android:text="@string/title"
+            android:text="Welkom bij Learn Amazigh"
             android:textSize="10pt" />
 
         <Button

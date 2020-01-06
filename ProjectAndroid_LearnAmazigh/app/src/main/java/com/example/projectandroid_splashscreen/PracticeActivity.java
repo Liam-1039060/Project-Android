@@ -8,6 +8,8 @@ import android.view.View;
 import android.widget.Button;
 
 public class PracticeActivity extends AppCompatActivity {
+    private Button Terug;
+
     private Button categorydieren1;
     private Button categoryfruit;
     private Button categoryinsecten;
@@ -23,6 +25,16 @@ public class PracticeActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_practice);
         getSupportActionBar().hide();
+
+        Terug = findViewById(R.id.Terugbtn);
+
+        Terug.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent Category = new Intent(getApplicationContext(), MainActivity.class);
+                startActivity(Category);
+            }
+        });
 
         categorydieren1 = (Button) findViewById(R.id.ctgbuttondieren1);
         categorydieren1.setOnClickListener(new View.OnClickListener() {
