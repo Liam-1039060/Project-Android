@@ -1,0 +1,634 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PracticeCtgDieren2"
+    android:fillViewport="true"
+    android:background="@drawable/background">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/patrijsimg"
+                android:layout_width="wrap_content"
+                android:layout_height="262dp"
+                android:layout_margin="24dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/dieren02_patrijs"
+                android:backgroundTint="@color/colorButtons"/>
+
+            <TextView
+                android:id="@+id/patrijsned"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="24dp"
+                android:background="@drawable/btn_rounded"
+                android:backgroundTint="@color/colorButtons"
+                android:text="Patrijs"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"
+                android:textSize="8pt" />
+
+            <TextView
+                android:id="@+id/patrijsamz"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="24dp"
+                android:background="@drawable/btn_rounded"
+                android:backgroundTint="@color/colorButtons"
+                android:text="Asekkur"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"
+                android:textSize="8pt" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/uilimg"
+                android:layout_width="wrap_content"
+                android:layout_height="262dp"
+                android:layout_margin="24dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/dieren02_uil"
+                android:backgroundTint="@color/colorButtons"/>
+
+            <TextView
+                android:id="@+id/uilned"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="24dp"
+                android:background="@drawable/btn_rounded"
+                android:backgroundTint="@color/colorButtons"
+                android:text="Uil"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"
+                android:textSize="8pt" />
+
+            <TextView
+                android:id="@+id/uilamz"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="24dp"
+                android:background="@drawable/btn_rounded"
+                android:backgroundTint="@color/colorButtons"
+                android:text="Muka"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"
+                android:textSize="8pt" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/gekkoimg"
+                android:layout_width="wrap_content"
+                android:layout_height="262dp"
+                android:layout_margin="24dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/dieren02_gekko"
+                android:backgroundTint="@color/colorButtons"/>
+
+            <TextView
+                android:id="@+id/gekkoned"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="24dp"
+                android:background="@drawable/btn_rounded"
+                android:backgroundTint="@color/colorButtons"
+                android:text="Gekko"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"
+                android:textSize="8pt" />
+
+            <TextView
+                android:id="@+id/gekkoamz"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="24dp"
+                android:background="@drawable/btn_rounded"
+                android:backgroundTint="@color/colorButtons"
+                android:text="Aḥamchel "
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"
+                android:textSize="8pt" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/schorpioenimg"
+                android:layout_width="wrap_content"
+                android:layout_height="262dp"
+                android:layout_margin="24dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/dieren02_schorpioen"
+                android:backgroundTint="@color/colorButtons"/>
+
+            <TextView
+                android:id="@+id/schorpioenned"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="24dp"
+                android:background="@drawable/btn_rounded"
+                android:backgroundTint="@color/colorButtons"
+                android:text="Schorpioen"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"
+                android:textSize="8pt" />
+
+            <TextView
+                android:id="@+id/schorpioenamz"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="24dp"
+                android:background="@drawable/btn_rounded"
+                android:backgroundTint="@color/colorButtons"
+                android:text="Tɣirdent"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"
+                android:textSize="8pt" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/stekelvarkenimg"
+                android:layout_width="wrap_content"
+                android:layout_height="262dp"
+                android:layout_margin="24dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/dieren02_stekelvarken"
+                android:backgroundTint="@color/colorButtons"/>
+
+            <TextView
+                android:id="@+id/stekelvarkenned"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="24dp"
+                android:background="@drawable/btn_rounded"
+                android:backgroundTint="@color/colorButtons"
+                android:text="Stekelvarken"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"
+                android:textSize="8pt" />
+
+            <TextView
+                android:id="@+id/stekelvarkenamz"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="24dp"
+                android:background="@drawable/btn_rounded"
+                android:backgroundTint="@color/colorButtons"
+                android:text="Aruy"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"
+                android:textSize="8pt" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/haasimg"
+                android:layout_width="wrap_content"
+                android:layout_height="262dp"
+                android:layout_margin="24dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/dieren02_haas"
+                android:backgroundTint="@color/colorButtons"/>
+
+            <TextView
+                android:id="@+id/haasned"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="24dp"
+                android:background="@drawable/btn_rounded"
+                android:backgroundTint="@color/colorButtons"
+                android:text="Haas"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"
+                android:textSize="8pt" />
+
+            <TextView
+                android:id="@+id/haasamz"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="24dp"
+                android:background="@drawable/btn_rounded"
+                android:backgroundTint="@color/colorButtons"
+                android:text="Ayaṛziz"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"
+                android:textSize="8pt" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/vosimg"
+                android:layout_width="wrap_content"
+                android:layout_height="262dp"
+                android:layout_margin="24dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/dieren02_vos"
+                android:backgroundTint="@color/colorButtons"/>
+
+            <TextView
+                android:id="@+id/vosned"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="24dp"
+                android:background="@drawable/btn_rounded"
+                android:backgroundTint="@color/colorButtons"
+                android:text="Vos"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"
+                android:textSize="8pt" />
+
+            <TextView
+                android:id="@+id/vosamz"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="24dp"
+                android:background="@drawable/btn_rounded"
+                android:backgroundTint="@color/colorButtons"
+                android:text="Icɛb"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"
+                android:textSize="8pt" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/windhondimg"
+                android:layout_width="wrap_content"
+                android:layout_height="262dp"
+                android:layout_margin="24dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/dieren02_windhond"
+                android:backgroundTint="@color/colorButtons"/>
+
+            <TextView
+                android:id="@+id/windhondned"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="24dp"
+                android:background="@drawable/btn_rounded"
+                android:backgroundTint="@color/colorButtons"
+                android:text="Windhond"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"
+                android:textSize="8pt" />
+
+            <TextView
+                android:id="@+id/windhondamz"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="24dp"
+                android:background="@drawable/btn_rounded"
+                android:backgroundTint="@color/colorButtons"
+                android:text="Uccay"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"
+                android:textSize="8pt" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/hyenaimg"
+                android:layout_width="wrap_content"
+                android:layout_height="262dp"
+                android:layout_margin="24dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/dieren02_hyena"
+                android:backgroundTint="@color/colorButtons"/>
+
+            <TextView
+                android:id="@+id/hyenaned"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="24dp"
+                android:background="@drawable/btn_rounded"
+                android:backgroundTint="@color/colorButtons"
+                android:text="Hyena"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"
+                android:textSize="8pt" />
+
+            <TextView
+                android:id="@+id/hyenaamz"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="24dp"
+                android:background="@drawable/btn_rounded"
+                android:backgroundTint="@color/colorButtons"
+                android:text="Ifis"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"
+                android:textSize="8pt" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/wildzwijnimg"
+                android:layout_width="wrap_content"
+                android:layout_height="262dp"
+                android:layout_margin="24dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/dieren02_wildzwijn"
+                android:backgroundTint="@color/colorButtons"/>
+
+            <TextView
+                android:id="@+id/wildzwijnned"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="24dp"
+                android:background="@drawable/btn_rounded"
+                android:backgroundTint="@color/colorButtons"
+                android:text="Wild zwijn"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"
+                android:textSize="8pt" />
+
+            <TextView
+                android:id="@+id/wildzwijnamz"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="24dp"
+                android:background="@drawable/btn_rounded"
+                android:backgroundTint="@color/colorButtons"
+                android:text="Ilf"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"
+                android:textSize="8pt" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/slangimg"
+                android:layout_width="wrap_content"
+                android:layout_height="262dp"
+                android:layout_margin="24dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/dieren02_slang"
+                android:backgroundTint="@color/colorButtons"/>
+
+            <TextView
+                android:id="@+id/slangned"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="24dp"
+                android:background="@drawable/btn_rounded"
+                android:backgroundTint="@color/colorButtons"
+                android:text="Slang"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"
+                android:textSize="8pt" />
+
+            <TextView
+                android:id="@+id/slangamz"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="24dp"
+                android:background="@drawable/btn_rounded"
+                android:backgroundTint="@color/colorButtons"
+                android:text="Afiɣra"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"
+                android:textSize="8pt" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/schildpadimg"
+                android:layout_width="wrap_content"
+                android:layout_height="262dp"
+                android:layout_margin="24dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/dieren02_schildpad"
+                android:backgroundTint="@color/colorButtons"/>
+
+            <TextView
+                android:id="@+id/schildpadned"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="24dp"
+                android:background="@drawable/btn_rounded"
+                android:backgroundTint="@color/colorButtons"
+                android:text="Schildpad"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"
+                android:textSize="8pt" />
+
+            <TextView
+                android:id="@+id/schildpadamz"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="24dp"
+                android:background="@drawable/btn_rounded"
+                android:backgroundTint="@color/colorButtons"
+                android:text="Icfar"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"
+                android:textSize="8pt" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/kameleonimg"
+                android:layout_width="wrap_content"
+                android:layout_height="262dp"
+                android:layout_margin="24dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/dieren02_kameleon"
+                android:backgroundTint="@color/colorButtons"/>
+
+            <TextView
+                android:id="@+id/kameleonned"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="24dp"
+                android:background="@drawable/btn_rounded"
+                android:backgroundTint="@color/colorButtons"
+                android:text="Kameleon"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"
+                android:textSize="8pt" />
+
+            <TextView
+                android:id="@+id/kameleonamz"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="24dp"
+                android:background="@drawable/btn_rounded"
+                android:backgroundTint="@color/colorButtons"
+                android:text="Tata"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"
+                android:textSize="8pt" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/zwaluwimg"
+                android:layout_width="wrap_content"
+                android:layout_height="262dp"
+                android:layout_margin="24dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/dieren02_zwaluw"
+                android:backgroundTint="@color/colorButtons"/>
+
+            <TextView
+                android:id="@+id/zwaluwned"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="24dp"
+                android:background="@drawable/btn_rounded"
+                android:backgroundTint="@color/colorButtons"
+                android:text="Zwaluw"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"
+                android:textSize="8pt" />
+
+            <TextView
+                android:id="@+id/zwaluwamz"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="24dp"
+                android:background="@drawable/btn_rounded"
+                android:backgroundTint="@color/colorButtons"
+                android:text="Tiflillest"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"
+                android:textSize="8pt" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/duifimg"
+                android:layout_width="wrap_content"
+                android:layout_height="262dp"
+                android:layout_margin="24dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/dieren02_duif"
+                android:backgroundTint="@color/colorButtons"/>
+
+            <TextView
+                android:id="@+id/duifned"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="24dp"
+                android:background="@drawable/btn_rounded"
+                android:backgroundTint="@color/colorButtons"
+                android:text="Duif"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"
+                android:textSize="8pt" />
+
+            <TextView
+                android:id="@+id/duifamz"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="24dp"
+                android:background="@drawable/btn_rounded"
+                android:backgroundTint="@color/colorButtons"
+                android:text="Adbir"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"
+                android:textSize="8pt" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</HorizontalScrollView>

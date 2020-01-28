@@ -130,7 +130,7 @@ public class PracticeActivity extends AppCompatActivity {
     }
 
     public void openCategoryDieren2() {
-        Intent intent = new Intent(this, PracticeCtg.class);
+        Intent intent = new Intent(this, PracticeCtgDieren2.class);
         startActivity(intent);
     }
 

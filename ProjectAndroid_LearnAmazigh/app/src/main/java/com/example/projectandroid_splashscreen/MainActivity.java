@@ -13,11 +13,14 @@ public class MainActivity extends AppCompatActivity {
     private Button resultsbutton;
     private Button aboutbutton;
 
+    DBHelper amazighDB;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         getSupportActionBar().hide();
+        amazighDB = new DBHelper(this);
 
         playbutton = (Button) findViewById(R.id.button);
         playbutton.setOnClickListener(new View.OnClickListener() {

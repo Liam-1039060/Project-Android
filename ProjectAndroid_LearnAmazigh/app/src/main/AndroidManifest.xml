@@ -12,6 +12,7 @@
         android:roundIcon="@drawable/amazighlogo"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".PracticeCtgDieren2"></activity>
         <activity
             android:name=".PlayCtg"
             android:parentActivityName=".PlayActivity"
