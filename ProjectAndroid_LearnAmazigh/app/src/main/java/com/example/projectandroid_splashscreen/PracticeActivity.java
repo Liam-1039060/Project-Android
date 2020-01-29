@@ -115,12 +115,12 @@ public class PracticeActivity extends AppCompatActivity {
     }
 
     public void openCategoryFruit() {
-        Intent intent = new Intent(this, PracticeCtg.class);
+        Intent intent = new Intent(this, PracticeCtgFruit.class);
         startActivity(intent);
     }
 
     public void openCategoryInsecten() {
-        Intent intent = new Intent(this, PracticeCtg.class);
+        Intent intent = new Intent(this, PracticeCtgInsecten.class);
         startActivity(intent);
     }
 

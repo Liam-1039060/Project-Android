@@ -1,0 +1,634 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PracticeCtgFruit"
+    android:fillViewport="true"
+    android:background="@drawable/background">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/appelimg"
+                android:layout_width="wrap_content"
+                android:layout_height="262dp"
+                android:layout_margin="24dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/fruit_appel"
+                android:backgroundTint="@color/colorButtons"/>
+
+            <TextView
+                android:id="@+id/appelned"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="24dp"
+                android:background="@drawable/btn_rounded"
+                android:backgroundTint="@color/colorButtons"
+                android:text="Appel"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"
+                android:textSize="8pt" />
+
+            <TextView
+                android:id="@+id/appelamz"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="24dp"
+                android:background="@drawable/btn_rounded"
+                android:backgroundTint="@color/colorButtons"
+                android:text="Tateffaht"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"
+                android:textSize="8pt" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/peerimg"
+                android:layout_width="wrap_content"
+                android:layout_height="262dp"
+                android:layout_margin="24dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/fruit_peer"
+                android:backgroundTint="@color/colorButtons"/>
+
+            <TextView
+                android:id="@+id/peerned"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="24dp"
+                android:background="@drawable/btn_rounded"
+                android:backgroundTint="@color/colorButtons"
+                android:text="Peer"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"
+                android:textSize="8pt" />
+
+            <TextView
+                android:id="@+id/peeramz"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="24dp"
+                android:background="@drawable/btn_rounded"
+                android:backgroundTint="@color/colorButtons"
+                android:text="Tafirast"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"
+                android:textSize="8pt" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/abrikoosimg"
+                android:layout_width="wrap_content"
+                android:layout_height="262dp"
+                android:layout_margin="24dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/fruit_abrikoos"
+                android:backgroundTint="@color/colorButtons"/>
+
+            <TextView
+                android:id="@+id/abrikoosned"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="24dp"
+                android:background="@drawable/btn_rounded"
+                android:backgroundTint="@color/colorButtons"
+                android:text="Abrikoos"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"
+                android:textSize="8pt" />
+
+            <TextView
+                android:id="@+id/abrikoosamz"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="24dp"
+                android:background="@drawable/btn_rounded"
+                android:backgroundTint="@color/colorButtons"
+                android:text="Rmecmac"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"
+                android:textSize="8pt" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/perzikimg"
+                android:layout_width="wrap_content"
+                android:layout_height="262dp"
+                android:layout_margin="24dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/fruit_perzik"
+                android:backgroundTint="@color/colorButtons"/>
+
+            <TextView
+                android:id="@+id/perzikned"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="24dp"
+                android:background="@drawable/btn_rounded"
+                android:backgroundTint="@color/colorButtons"
+                android:text="Perzik"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"
+                android:textSize="8pt" />
+
+            <TextView
+                android:id="@+id/perzikamz"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="24dp"
+                android:background="@drawable/btn_rounded"
+                android:backgroundTint="@color/colorButtons"
+                android:text="Rxux"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"
+                android:textSize="8pt" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/druivenimg"
+                android:layout_width="wrap_content"
+                android:layout_height="262dp"
+                android:layout_margin="24dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/fruit_druiven"
+                android:backgroundTint="@color/colorButtons"/>
+
+            <TextView
+                android:id="@+id/druivenned"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="24dp"
+                android:background="@drawable/btn_rounded"
+                android:backgroundTint="@color/colorButtons"
+                android:text="Druiven"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"
+                android:textSize="8pt" />
+
+            <TextView
+                android:id="@+id/druivenamz"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="24dp"
+                android:background="@drawable/btn_rounded"
+                android:backgroundTint="@color/colorButtons"
+                android:text="Aḍil"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"
+                android:textSize="8pt" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/watermeloenimg"
+                android:layout_width="wrap_content"
+                android:layout_height="262dp"
+                android:layout_margin="24dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/fruit_watermeloen"
+                android:backgroundTint="@color/colorButtons"/>
+
+            <TextView
+                android:id="@+id/watermeloenned"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="24dp"
+                android:background="@drawable/btn_rounded"
+                android:backgroundTint="@color/colorButtons"
+                android:text="Watermeloen"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"
+                android:textSize="8pt" />
+
+            <TextView
+                android:id="@+id/watermeloenamz"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="24dp"
+                android:background="@drawable/btn_rounded"
+                android:backgroundTint="@color/colorButtons"
+                android:text="Ddellaɛ"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"
+                android:textSize="8pt" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/honingmeloenimg"
+                android:layout_width="wrap_content"
+                android:layout_height="262dp"
+                android:layout_margin="24dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/fruit_honingmeloen"
+                android:backgroundTint="@color/colorButtons"/>
+
+            <TextView
+                android:id="@+id/honingmeloenned"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="24dp"
+                android:background="@drawable/btn_rounded"
+                android:backgroundTint="@color/colorButtons"
+                android:text="Honingmeloen"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"
+                android:textSize="8pt" />
+
+            <TextView
+                android:id="@+id/honingmeloenamz"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="24dp"
+                android:background="@drawable/btn_rounded"
+                android:backgroundTint="@color/colorButtons"
+                android:text="Abettix"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"
+                android:textSize="8pt" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/granaatappelimg"
+                android:layout_width="wrap_content"
+                android:layout_height="262dp"
+                android:layout_margin="24dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/fruit_granaatappel"
+                android:backgroundTint="@color/colorButtons"/>
+
+            <TextView
+                android:id="@+id/granaatappelned"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="24dp"
+                android:background="@drawable/btn_rounded"
+                android:backgroundTint="@color/colorButtons"
+                android:text="Granaatappel"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"
+                android:textSize="8pt" />
+
+            <TextView
+                android:id="@+id/granaatappelamz"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="24dp"
+                android:background="@drawable/btn_rounded"
+                android:backgroundTint="@color/colorButtons"
+                android:text="Arremman"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"
+                android:textSize="8pt" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/vijgimg"
+                android:layout_width="wrap_content"
+                android:layout_height="262dp"
+                android:layout_margin="24dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/fruit_vijg"
+                android:backgroundTint="@color/colorButtons"/>
+
+            <TextView
+                android:id="@+id/vijgned"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="24dp"
+                android:background="@drawable/btn_rounded"
+                android:backgroundTint="@color/colorButtons"
+                android:text="Vijg"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"
+                android:textSize="8pt" />
+
+            <TextView
+                android:id="@+id/vijgamz"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="24dp"
+                android:background="@drawable/btn_rounded"
+                android:backgroundTint="@color/colorButtons"
+                android:text="Tazart"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"
+                android:textSize="8pt" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/cactusvijgimg"
+                android:layout_width="wrap_content"
+                android:layout_height="262dp"
+                android:layout_margin="24dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/fruit_cactusvijg"
+                android:backgroundTint="@color/colorButtons"/>
+
+            <TextView
+                android:id="@+id/cactusvijgned"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="24dp"
+                android:background="@drawable/btn_rounded"
+                android:backgroundTint="@color/colorButtons"
+                android:text="Cactusvijg"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"
+                android:textSize="8pt" />
+
+            <TextView
+                android:id="@+id/cactusvijgamz"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="24dp"
+                android:background="@drawable/btn_rounded"
+                android:backgroundTint="@color/colorButtons"
+                android:text="Tahendict"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"
+                android:textSize="8pt" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/pruimimg"
+                android:layout_width="wrap_content"
+                android:layout_height="262dp"
+                android:layout_margin="24dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/fruit_pruim"
+                android:backgroundTint="@color/colorButtons"/>
+
+            <TextView
+                android:id="@+id/pruimned"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="24dp"
+                android:background="@drawable/btn_rounded"
+                android:backgroundTint="@color/colorButtons"
+                android:text="Pruim"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"
+                android:textSize="8pt" />
+
+            <TextView
+                android:id="@+id/pruimamz"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="24dp"
+                android:background="@drawable/btn_rounded"
+                android:backgroundTint="@color/colorButtons"
+                android:text="Rbarquq"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"
+                android:textSize="8pt" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/sinaasappelimg"
+                android:layout_width="wrap_content"
+                android:layout_height="262dp"
+                android:layout_margin="24dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/fruit_sinaasappel"
+                android:backgroundTint="@color/colorButtons"/>
+
+            <TextView
+                android:id="@+id/sinaasappelned"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="24dp"
+                android:background="@drawable/btn_rounded"
+                android:backgroundTint="@color/colorButtons"
+                android:text="Sinaasappel"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"
+                android:textSize="8pt" />
+
+            <TextView
+                android:id="@+id/sinaasappelamz"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="24dp"
+                android:background="@drawable/btn_rounded"
+                android:backgroundTint="@color/colorButtons"
+                android:text="Taleccint"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"
+                android:textSize="8pt" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/dadelimg"
+                android:layout_width="wrap_content"
+                android:layout_height="262dp"
+                android:layout_margin="24dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/fruit_dadel"
+                android:backgroundTint="@color/colorButtons"/>
+
+            <TextView
+                android:id="@+id/dadelned"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="24dp"
+                android:background="@drawable/btn_rounded"
+                android:backgroundTint="@color/colorButtons"
+                android:text="Dadel"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"
+                android:textSize="8pt" />
+
+            <TextView
+                android:id="@+id/dadelamz"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="24dp"
+                android:background="@drawable/btn_rounded"
+                android:backgroundTint="@color/colorButtons"
+                android:text="Tini"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"
+                android:textSize="8pt" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/citroenimg"
+                android:layout_width="wrap_content"
+                android:layout_height="262dp"
+                android:layout_margin="24dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/fruit_citroen"
+                android:backgroundTint="@color/colorButtons"/>
+
+            <TextView
+                android:id="@+id/citroenned"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="24dp"
+                android:background="@drawable/btn_rounded"
+                android:backgroundTint="@color/colorButtons"
+                android:text="Citroen"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"
+                android:textSize="8pt" />
+
+            <TextView
+                android:id="@+id/citroenamz"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="24dp"
+                android:background="@drawable/btn_rounded"
+                android:backgroundTint="@color/colorButtons"
+                android:text="Llaymun"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"
+                android:textSize="8pt" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/bananenimg"
+                android:layout_width="wrap_content"
+                android:layout_height="262dp"
+                android:layout_margin="24dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/fruit_bananen"
+                android:backgroundTint="@color/colorButtons"/>
+
+            <TextView
+                android:id="@+id/bananenned"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="24dp"
+                android:background="@drawable/btn_rounded"
+                android:backgroundTint="@color/colorButtons"
+                android:text="Bananen"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"
+                android:textSize="8pt" />
+
+            <TextView
+                android:id="@+id/bananenamz"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="24dp"
+                android:background="@drawable/btn_rounded"
+                android:backgroundTint="@color/colorButtons"
+                android:text="Banan"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"
+                android:textSize="8pt" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</HorizontalScrollView>

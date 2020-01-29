@@ -1,0 +1,634 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PracticeCtgInsecten"
+    android:fillViewport="true"
+    android:background="@drawable/background">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/slakimg"
+                android:layout_width="wrap_content"
+                android:layout_height="262dp"
+                android:layout_margin="24dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/insecten_slak"
+                android:backgroundTint="@color/colorButtons"/>
+
+            <TextView
+                android:id="@+id/slakned"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="24dp"
+                android:background="@drawable/btn_rounded"
+                android:backgroundTint="@color/colorButtons"
+                android:text="Slak"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"
+                android:textSize="8pt" />
+
+            <TextView
+                android:id="@+id/slakamz"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="24dp"
+                android:background="@drawable/btn_rounded"
+                android:backgroundTint="@color/colorButtons"
+                android:text="Aɣlal"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"
+                android:textSize="8pt" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/regenwormimg"
+                android:layout_width="wrap_content"
+                android:layout_height="262dp"
+                android:layout_margin="24dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/insecten_regenworm"
+                android:backgroundTint="@color/colorButtons"/>
+
+            <TextView
+                android:id="@+id/regenwormned"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="24dp"
+                android:background="@drawable/btn_rounded"
+                android:backgroundTint="@color/colorButtons"
+                android:text="Regenworm"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"
+                android:textSize="8pt" />
+
+            <TextView
+                android:id="@+id/regenwormamz"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="24dp"
+                android:background="@drawable/btn_rounded"
+                android:backgroundTint="@color/colorButtons"
+                android:text="Adan n tmurt"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"
+                android:textSize="8pt" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/larveimg"
+                android:layout_width="wrap_content"
+                android:layout_height="262dp"
+                android:layout_margin="24dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/insecten_larve"
+                android:backgroundTint="@color/colorButtons"/>
+
+            <TextView
+                android:id="@+id/larvened"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="24dp"
+                android:background="@drawable/btn_rounded"
+                android:backgroundTint="@color/colorButtons"
+                android:text="Larve"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"
+                android:textSize="8pt" />
+
+            <TextView
+                android:id="@+id/larveamz"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="24dp"
+                android:background="@drawable/btn_rounded"
+                android:backgroundTint="@color/colorButtons"
+                android:text="Takecca"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"
+                android:textSize="8pt" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/vliegimg"
+                android:layout_width="wrap_content"
+                android:layout_height="262dp"
+                android:layout_margin="24dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/insecten_vlieg"
+                android:backgroundTint="@color/colorButtons"/>
+
+            <TextView
+                android:id="@+id/vliegned"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="24dp"
+                android:background="@drawable/btn_rounded"
+                android:backgroundTint="@color/colorButtons"
+                android:text="Vlieg"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"
+                android:textSize="8pt" />
+
+            <TextView
+                android:id="@+id/vliegamz"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="24dp"
+                android:background="@drawable/btn_rounded"
+                android:backgroundTint="@color/colorButtons"
+                android:text="Iẓi"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"
+                android:textSize="8pt" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/bijimg"
+                android:layout_width="wrap_content"
+                android:layout_height="262dp"
+                android:layout_margin="24dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/insecten_bij"
+                android:backgroundTint="@color/colorButtons"/>
+
+            <TextView
+                android:id="@+id/bijned"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="24dp"
+                android:background="@drawable/btn_rounded"
+                android:backgroundTint="@color/colorButtons"
+                android:text="Bij"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"
+                android:textSize="8pt" />
+
+            <TextView
+                android:id="@+id/bijamz"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="24dp"
+                android:background="@drawable/btn_rounded"
+                android:backgroundTint="@color/colorButtons"
+                android:text="Zizwit"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"
+                android:textSize="8pt" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/mugimg"
+                android:layout_width="wrap_content"
+                android:layout_height="262dp"
+                android:layout_margin="24dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/insecten_mug"
+                android:backgroundTint="@color/colorButtons"/>
+
+            <TextView
+                android:id="@+id/mugned"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="24dp"
+                android:background="@drawable/btn_rounded"
+                android:backgroundTint="@color/colorButtons"
+                android:text="Mug"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"
+                android:textSize="8pt" />
+
+            <TextView
+                android:id="@+id/mugamz"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="24dp"
+                android:background="@drawable/btn_rounded"
+                android:backgroundTint="@color/colorButtons"
+                android:text="Nnamus"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"
+                android:textSize="8pt" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/mierimg"
+                android:layout_width="wrap_content"
+                android:layout_height="262dp"
+                android:layout_margin="24dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/insecten_mier"
+                android:backgroundTint="@color/colorButtons"/>
+
+            <TextView
+                android:id="@+id/mierned"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="24dp"
+                android:background="@drawable/btn_rounded"
+                android:backgroundTint="@color/colorButtons"
+                android:text="Mier"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"
+                android:textSize="8pt" />
+
+            <TextView
+                android:id="@+id/mieramz"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="24dp"
+                android:background="@drawable/btn_rounded"
+                android:backgroundTint="@color/colorButtons"
+                android:text="Tikedfet"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"
+                android:textSize="8pt" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/vlinderimg"
+                android:layout_width="wrap_content"
+                android:layout_height="262dp"
+                android:layout_margin="24dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/insecten_vlinder"
+                android:backgroundTint="@color/colorButtons"/>
+
+            <TextView
+                android:id="@+id/vlinderned"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="24dp"
+                android:background="@drawable/btn_rounded"
+                android:backgroundTint="@color/colorButtons"
+                android:text="Vlinder"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"
+                android:textSize="8pt" />
+
+            <TextView
+                android:id="@+id/vlinderamz"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="24dp"
+                android:background="@drawable/btn_rounded"
+                android:backgroundTint="@color/colorButtons"
+                android:text="Aferṭṭu"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"
+                android:textSize="8pt" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/spinimg"
+                android:layout_width="wrap_content"
+                android:layout_height="262dp"
+                android:layout_margin="24dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/insecten_spin"
+                android:backgroundTint="@color/colorButtons"/>
+
+            <TextView
+                android:id="@+id/spinned"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="24dp"
+                android:background="@drawable/btn_rounded"
+                android:backgroundTint="@color/colorButtons"
+                android:text="Spin"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"
+                android:textSize="8pt" />
+
+            <TextView
+                android:id="@+id/spinamz"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="24dp"
+                android:background="@drawable/btn_rounded"
+                android:backgroundTint="@color/colorButtons"
+                android:text="Qundɣa"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"
+                android:textSize="8pt" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/sprinkhaanimg"
+                android:layout_width="wrap_content"
+                android:layout_height="262dp"
+                android:layout_margin="24dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/insecten_sprinkhaan"
+                android:backgroundTint="@color/colorButtons"/>
+
+            <TextView
+                android:id="@+id/sprinkhaanned"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="24dp"
+                android:background="@drawable/btn_rounded"
+                android:backgroundTint="@color/colorButtons"
+                android:text="Sprinkhaan"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"
+                android:textSize="8pt" />
+
+            <TextView
+                android:id="@+id/sprinkhaanamz"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="24dp"
+                android:background="@drawable/btn_rounded"
+                android:backgroundTint="@color/colorButtons"
+                android:text="Burxes"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"
+                android:textSize="8pt" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/rupsimg"
+                android:layout_width="wrap_content"
+                android:layout_height="262dp"
+                android:layout_margin="24dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/insecten_rups"
+                android:backgroundTint="@color/colorButtons"/>
+
+            <TextView
+                android:id="@+id/rupsned"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="24dp"
+                android:background="@drawable/btn_rounded"
+                android:backgroundTint="@color/colorButtons"
+                android:text="Rups"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"
+                android:textSize="8pt" />
+
+            <TextView
+                android:id="@+id/rupsamz"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="24dp"
+                android:background="@drawable/btn_rounded"
+                android:backgroundTint="@color/colorButtons"
+                android:text="Bugḍif"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"
+                android:textSize="8pt" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/wespimg"
+                android:layout_width="wrap_content"
+                android:layout_height="262dp"
+                android:layout_margin="24dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/insecten_wesp"
+                android:backgroundTint="@color/colorButtons"/>
+
+            <TextView
+                android:id="@+id/wespned"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="24dp"
+                android:background="@drawable/btn_rounded"
+                android:backgroundTint="@color/colorButtons"
+                android:text="Wesp"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"
+                android:textSize="8pt" />
+
+            <TextView
+                android:id="@+id/wespamz"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="24dp"
+                android:background="@drawable/btn_rounded"
+                android:backgroundTint="@color/colorButtons"
+                android:text="Yaẓẓa"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"
+                android:textSize="8pt" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/naaktslakimg"
+                android:layout_width="wrap_content"
+                android:layout_height="262dp"
+                android:layout_margin="24dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/insecten_naaktslak"
+                android:backgroundTint="@color/colorButtons"/>
+
+            <TextView
+                android:id="@+id/naaktslakned"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="24dp"
+                android:background="@drawable/btn_rounded"
+                android:backgroundTint="@color/colorButtons"
+                android:text="Naaktslak"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"
+                android:textSize="8pt" />
+
+            <TextView
+                android:id="@+id/naaktslakamz"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="24dp"
+                android:background="@drawable/btn_rounded"
+                android:backgroundTint="@color/colorButtons"
+                android:text="Buccel"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"
+                android:textSize="8pt" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/bloedzuigerimg"
+                android:layout_width="wrap_content"
+                android:layout_height="262dp"
+                android:layout_margin="24dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/insecten_bloedzuiger"
+                android:backgroundTint="@color/colorButtons"/>
+
+            <TextView
+                android:id="@+id/bloedzuigerned"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="24dp"
+                android:background="@drawable/btn_rounded"
+                android:backgroundTint="@color/colorButtons"
+                android:text="Bloedzuiger"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"
+                android:textSize="8pt" />
+
+            <TextView
+                android:id="@+id/bloedzuigeramz"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="24dp"
+                android:background="@drawable/btn_rounded"
+                android:backgroundTint="@color/colorButtons"
+                android:text="Tiḍḍa"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"
+                android:textSize="8pt" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/bidsprinkhaanimg"
+                android:layout_width="wrap_content"
+                android:layout_height="262dp"
+                android:layout_margin="24dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/insecten_bidsprinkhaan"
+                android:backgroundTint="@color/colorButtons"/>
+
+            <TextView
+                android:id="@+id/bidsprinkhaanned"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="24dp"
+                android:background="@drawable/btn_rounded"
+                android:backgroundTint="@color/colorButtons"
+                android:text="Bidsprinkhaan"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"
+                android:textSize="8pt" />
+
+            <TextView
+                android:id="@+id/bidsprinkhaanamz"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="24dp"
+                android:background="@drawable/btn_rounded"
+                android:backgroundTint="@color/colorButtons"
+                android:text="Tamraebt"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"
+                android:textSize="8pt" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</HorizontalScrollView>
