@@ -12,7 +12,10 @@
         android:roundIcon="@drawable/amazighlogo"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".PracticeCtgDieren2"></activity>
+        <activity android:name=".PracticeCtgGroente"></activity>
+        <activity android:name=".PracticeCtgFruit" />
+        <activity android:name=".PracticeCtgInsecten" />
+        <activity android:name=".PracticeCtgDieren2" />
         <activity
             android:name=".PlayCtg"
             android:parentActivityName=".PlayActivity"
