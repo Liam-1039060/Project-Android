@@ -26,6 +26,7 @@ public class PlayCtg extends AppCompatActivity {
     //Rounds
     private int Round;
     private int Lifes;
+    private int Grade;
 
     private Button Terug;
     private Button Sound;
@@ -43,16 +44,17 @@ public class PlayCtg extends AppCompatActivity {
 
 
         // Get bundle
-        Bundle catogory = getIntent().getExtras();
-        catogoryName = catogory.getString("Selected");
-
-        getSupportActionBar().setTitle(catogoryName + "Quiz");
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+//        Bundle catogory = getIntent().getExtras();
+//        catogoryName = catogory.getString("Selected");
+//
+//        getSupportActionBar().setTitle(catogoryName + "Quiz");
+//        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         //Give values
         Lifes = 3;
         correct= false;
         Round= 0;
+        Grade = 0;
 
 
         //Connecting views
@@ -94,19 +96,32 @@ public class PlayCtg extends AppCompatActivity {
 
     public void setAnswers(){
 
-        // Checkking lives and round
-         if(Round == 6){
-             Intent Done = new Intent(getApplicationContext(), ResultsActivity.class);
-             Done.putExtra("Result", Lifes);
-             startActivity(Done);
-         }
-         if(Lifes == 0){
-             Toast.makeText("GAME OVER :OO").getDuration(2000);
-             Intent Done = new Intent(getApplicationContext(), ResultsActivity.class);
-             Done.putExtra("Result", Lifes);
-             startActivity(Done);
-         }
 
+         if(Lifes == 0){
+             Grade= 2;
+             Intent Done = new Intent(getApplicationContext(), ResultsActivity.class);
+             Done.putExtra("Result", Grade);
+             startActivity(Done);
+         }
+        // Checkking lives and round
+        if(Round == 6){
+            switch (Lifes){
+                case 3:
+                    Grade= 10;
+                    break;
+                case 2:
+                    Grade = 6;
+                    break;
+                case 1:
+                    Grade= 4;
+                    break;
+                default: Grade = 2;
+            }
+
+            Intent Done = new Intent(getApplicationContext(), ResultsActivity.class);
+            Done.putExtra("Result", Grade);
+            startActivity(Done);
+        }
         //Randomnise R
 
         Ran = new Random().nextInt(7);
@@ -115,48 +130,48 @@ public class PlayCtg extends AppCompatActivity {
 
         // Getting Answers
 
-        for (int i = 0; i <= 6; i++) {
-            switch (i) {
-                case 1:
-                    Answer1 = R.drawable.image+i;
-                    if (i == Ran) {
-                        correct = true;
-                    }
-                    break;
-                case 2:
-                    Answer2 = R.drawable. "image" + i;
-                    if (i == Ran) {
-                        correct = true;
-                    }
-                    break;
-                case 3:
-                    Answer3 = R.drawable. "image" + i;
-                    if (i == Ran) {
-                        correct = true;
-                    }
-                    break;
-                case 4:
-                    Answer4 = R.drawable. "image" + i;
-                    if (i == Ran) {
-                        correct = true;
-                    }
-                    break;
-                case 5:
-                    Answer5 = R.drawable. "image" + i;
-                    if (i == Ran) {
-                        correct = true;
-                    }
-                    break;
-                case 6:
-                    Answer6 = R.drawable. "image" + i;
-                    if (i == Ran) {
-                        correct = true;
-                    }
-                    break;
-                    default:
-                        System.out.println("Something went wrong");
-            }
-        }
+//        for (int i = 0; i <= 6; i++) {
+//            switch (i) {
+//                case 1:
+//                    Answer1 = R.drawable.image+i;
+//                    if (i == Ran) {
+//                        correct = true;
+//                    }
+//                    break;
+//                case 2:
+//                    Answer2 = R.drawable. "image" + i;
+//                    if (i == Ran) {
+//                        correct = true;
+//                    }
+//                    break;
+//                case 3:
+//                    Answer3 = R.drawable. "image" + i;
+//                    if (i == Ran) {
+//                        correct = true;
+//                    }
+//                    break;
+//                case 4:
+//                    Answer4 = R.drawable. "image" + i;
+//                    if (i == Ran) {
+//                        correct = true;
+//                    }
+//                    break;
+//                case 5:
+//                    Answer5 = R.drawable. "image" + i;
+//                    if (i == Ran) {
+//                        correct = true;
+//                    }
+//                    break;
+//                case 6:
+//                    Answer6 = R.drawable. "image" + i;
+//                    if (i == Ran) {
+//                        correct = true;
+//                    }
+//                    break;
+//                    default:
+//                        System.out.println("Something went wrong");
+//            }
+//        }
     }
 
 

@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/background"
     tools:context=".PlayActivity">
 
     <LinearLayout
@@ -18,7 +19,8 @@
             android:layout_weight="1"
             android:layout_gravity="center"
             android:layout_marginTop="32dp"
-            android:background="@drawable/buttonstyle"
+            android:backgroundTint="@color/colorButtons"
+            android:background="@drawable/btn_rounded"
             android:text="Dieren 1"
             android:textColor="@color/colorWhite"
             app:layout_constraintEnd_toEndOf="parent"
@@ -33,7 +35,8 @@
             android:layout_marginTop="32dp"
             android:text="Fruit"
             android:textColor="@color/colorWhite"
-            android:background="@drawable/buttonstyle"
+            android:backgroundTint="@color/colorButtons"
+            android:background="@drawable/btn_rounded"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent" />
 
@@ -45,8 +48,9 @@
             android:layout_gravity="center"
             android:layout_marginTop="32dp"
             android:text="Insecten"
+            android:backgroundTint="@color/colorButtons"
             android:textColor="@color/colorWhite"
-            android:background="@drawable/buttonstyle"
+            android:background="@drawable/btn_rounded"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent" />
 
@@ -57,9 +61,10 @@
             android:layout_weight="1"
             android:layout_gravity="center"
             android:layout_marginTop="32dp"
+            android:backgroundTint="@color/colorButtons"
             android:text="Groente"
             android:textColor="@color/colorWhite"
-            android:background="@drawable/buttonstyle"
+            android:background="@drawable/btn_rounded"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent" />
 
@@ -70,7 +75,8 @@
             android:layout_weight="1"
             android:layout_gravity="center"
             android:layout_marginTop="32dp"
-            android:background="@drawable/buttonstyle"
+            android:backgroundTint="@color/colorButtons"
+            android:background="@drawable/btn_rounded"
             android:text="Dieren 2"
             android:textColor="@color/colorWhite"
             app:layout_constraintEnd_toEndOf="parent"
@@ -84,8 +90,9 @@
             android:layout_gravity="center"
             android:layout_marginTop="32dp"
             android:text="Eten"
+            android:backgroundTint="@color/colorButtons"
             android:textColor="@color/colorWhite"
-            android:background="@drawable/buttonstyle"
+            android:background="@drawable/btn_rounded"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent" />
 
@@ -97,8 +104,9 @@
             android:layout_gravity="center"
             android:layout_marginTop="32dp"
             android:text="Kleding"
+            android:backgroundTint="@color/colorButtons"
             android:textColor="@color/colorWhite"
-            android:background="@drawable/buttonstyle"
+            android:background="@drawable/btn_rounded"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent" />
 
@@ -110,8 +118,9 @@
             android:layout_gravity="center"
             android:layout_marginTop="32dp"
             android:text="Weer"
+            android:backgroundTint="@color/colorButtons"
             android:textColor="@color/colorWhite"
-            android:background="@drawable/buttonstyle"
+            android:background="@drawable/btn_rounded"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent" />
 
@@ -123,8 +132,9 @@
             android:layout_gravity="center"
             android:layout_marginTop="32dp"
             android:text="Kleuren"
+            android:backgroundTint="@color/colorButtons"
             android:textColor="@color/colorWhite"
-            android:background="@drawable/buttonstyle"
+            android:background="@drawable/btn_rounded"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent" />
     </LinearLayout>
